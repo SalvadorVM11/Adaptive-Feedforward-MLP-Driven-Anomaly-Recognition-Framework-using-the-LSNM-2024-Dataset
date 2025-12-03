@@ -23,7 +23,7 @@ This IDS uses a 3-layer Adaptive MLP integrated with:
 ---
 ### 📌 Architecture Diagram Placeholder
 
-![Insert architecture image here]
+![Architecture](images/architecture.png)
 
 ### 📊 Dataset — LSNM 2024
 The model is trained and tested on the LSNM 2024 dataset consisting of:
@@ -37,8 +37,9 @@ The model is trained and tested on the LSNM 2024 dataset consisting of:
 - Suitable for machine learning-based IDS systems
 
 ---
-### 📌 PCA Visualization Placeholder
-![Insert PCA projection image here]
+### 📌 Model Flow
+
+![PCA Projection](eda_outputs/pca_visualization_train.png)
 
 #### 🔧 Preprocessing Steps
 - Removed duplicates & missing values
@@ -60,8 +61,8 @@ The model is trained and tested on the LSNM 2024 dataset consisting of:
 
 ### 📌 Training Accuracy/Loss Graphs Placeholder
 
-![Insert accuracy graph here]
-![Insert loss graph here]
+![Accuracy over epochs](eda_outputs/accuracy_over_epochs.png)
+![Loss over epochs](eda_outputs/loss_over_epochs.png)
 
 ---
 ### 🧪 Evaluation Insights
@@ -69,10 +70,8 @@ The model is trained and tested on the LSNM 2024 dataset consisting of:
 - Minor confusion only between attacks with very similar network patterns (e.g., SQL Injection vs RCE).
 - ROC-AUC scores ~0.99–1.0 for all classes → exceptional feature discrimination.
 
-![Confusion Matrix Placeholder]
-![Insert confusion matrix here]
-![ROC-AUC Curves Placeholder]
-![Insert ROC graph here]
+![Confusion matrix](images/cn_confusion_matrix.png)
+![ROC-AUC Curves](eda_outputs/roc_auc_curves_test_set.png)
 
 ---
 ### 🧩 Why This Approach Works
