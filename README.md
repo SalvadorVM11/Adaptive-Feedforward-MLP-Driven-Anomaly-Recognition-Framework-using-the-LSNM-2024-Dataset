@@ -57,7 +57,7 @@ The model is trained and tested on the LSNM 2024 dataset consisting of:
 - Model Selection: Best macro-F1
 
 ### 📈 Performance Summary
-![comparsion_table]
+![Comparsion table](images/accuracy_table.png)
 
 ### 📌 Training Accuracy/Loss Graphs Placeholder
 
