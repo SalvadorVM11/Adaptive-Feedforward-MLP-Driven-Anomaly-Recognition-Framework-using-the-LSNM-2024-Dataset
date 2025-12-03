@@ -21,7 +21,6 @@ This IDS uses a 3-layer Adaptive MLP integrated with:
 
 ---
 ### 📌 Architecture Diagram Placeholder
-
 ![Architecture](images/architecture.png)
 
 ### 📊 Dataset — LSNM 2024
