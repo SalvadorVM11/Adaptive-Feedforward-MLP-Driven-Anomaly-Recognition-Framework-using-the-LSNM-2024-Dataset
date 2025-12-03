@@ -1,5 +1,4 @@
 # Adaptive Feedforward MLP Driven Anomaly Recognition Framework using the LSNM 2024 Dataset
----
 This repository contains an optimized Feedforward Multi-Layer Perceptron (MLP)–based Intrusion Detection System (IDS) built using PyTorch and evaluated on the LSNM 2024 dataset, a modern large-scale benchmark for network anomaly detection.
 
 ---
