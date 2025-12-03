@@ -20,9 +20,6 @@ This IDS uses a 3-layer Adaptive MLP integrated with:
 - ReduceLROnPlateau LR Scheduler
 
 ---
-### 📌 Architecture Diagram Placeholder
-![Architecture](images/architecture.png)
-
 ### 📊 Dataset — LSNM 2024
 The model is trained and tested on the LSNM 2024 dataset consisting of:
 - Benign traffic
@@ -36,10 +33,14 @@ The model is trained and tested on the LSNM 2024 dataset consisting of:
 
 ---
 ### 📌 Model Flow
+####  Model Architecture
+
+![Architecture](images/architecture.png)
+
+#### 🔧 Preprocessing Steps
 
 ![PCA Projection](eda_outputs/pca_visualization_train.png)
 
-#### 🔧 Preprocessing Steps
 - Removed duplicates & missing values
 - Encoded categorical labels
 - Standardized features
@@ -53,17 +54,17 @@ The model is trained and tested on the LSNM 2024 dataset consisting of:
 - Scheduler: ReduceLROnPlateau
 - Early Stopping: Patience = 5
 - Model Selection: Best macro-F1
-
+- 
+---
 ### 📈 Performance Summary
 ![Comparsion table](images/accuracy_table.png)
 
-### 📌 Training Accuracy/Loss Graphs Placeholder
+#### 📌 Training Accuracy/Loss Graphs
 
 ![Accuracy over epochs](eda_outputs/accuracy_over_epochs.png)
 ![Loss over epochs](eda_outputs/loss_over_epochs.png)
 
----
-### 🧪 Evaluation Insights
+#### 🧪 Evaluation Insights
 - Confusion Matrix shows strong classification across all attack types.
 - Minor confusion only between attacks with very similar network patterns (e.g., SQL Injection vs RCE).
 - ROC-AUC scores ~0.99–1.0 for all classes → exceptional feature discrimination.
